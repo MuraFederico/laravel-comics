@@ -1,0 +1,44 @@
+.blue-band {
+    padding: .3rem;
+    background-color: #0282f9;
+    color: white;
+    .container {
+        display: flex;
+        justify-content: flex-end;
+    }
+    h4 {
+        margin-left: 6rem;
+        font-size: 12px;
+    }
+}
+
+nav {
+    .container {
+        padding: 1rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo-container {
+        margin-right: 3rem;
+    }
+
+    .nav-list {
+        margin-right: 3rem;
+        display: flex;
+        list-style: none;
+        li {
+            margin: 0 1rem;
+            flex-grow: 1;
+        }
+    }
+}
+
+.container-jumbo {
+    height: 450px;
+    overflow: hidden;
+    img {
+    width: 100%;
+    }
+}
