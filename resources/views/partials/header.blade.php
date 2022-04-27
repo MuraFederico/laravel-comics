@@ -8,13 +8,13 @@
     <nav>
         <div class="container">
             <div class="logo-container">
-                <img src="./images/dc-logo.png" alt="">
+                <a href="/"><img src="./images/dc-logo.png" alt=""></a>
             </div>
 
             <ul class="nav-list">
-                <li><a href="#">CHARACTERS</a></li>
-                <li><a href="#">COMICS</a></li>
-                <li><a href="#">MOVIES</a></li>
+                <li><a href="characters">CHARACTERS</a></li>
+                <li><a href="comics">COMICS</a></li>
+                <li><a href="movies">MOVIES</a></li>
                 <li><a href="#">TV</a></li>
                 <li><a href="#">GAMES</a></li>
                 <li><a href="#">COLLECTIBLES</a></li>
