@@ -56,3 +56,68 @@ nav .nav-list li {
   width: 100%;
 }
 
+#main-content {
+  background-color: #1c1c1c;
+  color: white;
+}
+
+.container-main-content {
+  padding: 1.5rem;
+  position: relative;
+}
+
+.container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.current-series {
+  padding: 0.5rem 1.5rem;
+  position: absolute;
+  top: -22px;
+  left: 0;
+  background-color: #0282f9;
+}
+
+.card {
+  flex-basis: calc(16.6666666667% - 1rem);
+  margin: 1.5rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card .img-container {
+  height: 180px;
+  width: 180px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card:hover img {
+  opacity: 0.3;
+}
+
+.btn-expand {
+  width: 150px;
+  margin: 0 calc((100% - 150px) / 2);
+  padding: 0.5rem 2rem;
+  align-self: center;
+  background-color: #0282f9;
+  border: none;
+  color: white;
+}
+
+.btn-expand:hover {
+  cursor: pointer;
+}
+
