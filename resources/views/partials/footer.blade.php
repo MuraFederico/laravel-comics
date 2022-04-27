@@ -20,7 +20,7 @@
                 </ul>
             </div>
             <div class="container-logo">
-                <img src="assets/img/dc-logo-bg.png" alt="">
+                <img src="images/dc-logo-bg.png" alt="">
             </div>
         </div>
     </section>
@@ -29,7 +29,7 @@
             <button>SIGN-UP NOW!</button>
             <div class="container-socials">
                 <h2>FOLLOW US</h2>
-                <a v-for="(social, index) in socialLinks" :key="index" :href="social.href"><img :src="social.icon" alt=""></a>
+                {{-- <a v-for="(social, index) in socialLinks" :key="index" :href="social.href"><img :src="social.icon" alt=""></a> --}}
             </div>
         </div>
     </div>
