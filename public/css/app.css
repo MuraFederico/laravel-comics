@@ -25,24 +25,24 @@
   font-size: 12px;
 }
 
-nav .container {
+header nav .container {
   padding: 1rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-nav .logo-container {
+header nav .logo-container {
   margin-right: 3rem;
 }
 
-nav .nav-list {
+header nav .nav-list {
   margin-right: 3rem;
   display: flex;
   list-style: none;
 }
 
-nav .nav-list li {
+header nav .nav-list li {
   margin: 0 1rem;
   flex-grow: 1;
 }
@@ -119,5 +119,114 @@ nav .nav-list li {
 
 .btn-expand:hover {
   cursor: pointer;
+}
+
+.nav-main {
+  text-align: center;
+  background-color: #0282f9;
+}
+
+.nav-main ul {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-main li {
+  margin: 0 1.5rem;
+  display: inline-block;
+}
+
+.nav-main li a {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-main li a .container-img {
+  margin-right: 0.5rem;
+  height: 50px;
+  width: 40px;
+}
+
+.nav-main li a .container-img img {
+  height: 100%;
+  width: 100%;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+footer #footer-main {
+  height: 400px;
+  overflow: hidden;
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-size: cover;
+}
+
+footer .container-links {
+  padding: 2rem 0;
+  display: flex;
+  flex-flow: column wrap;
+  color: white;
+}
+
+footer .container-links ul {
+  margin-bottom: 1rem;
+  margin-right: 1.5rem;
+  list-style: none;
+}
+
+footer .container-links .list-title {
+  margin-bottom: 0.5rem;
+}
+
+footer .container-links a {
+  color: gray;
+  text-decoration: none;
+}
+
+footer .container-links a:hover {
+  color: white;
+}
+
+footer .container-logo {
+  align-self: center;
+}
+
+footer #footer-socials {
+  padding: 2rem;
+  background-color: #303030;
+}
+
+footer #footer-socials button {
+  padding: 0.7rem;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #0282f9;
+  border-radius: none;
+}
+
+footer #footer-socials button:hover {
+  cursor: pointer;
+}
+
+footer .container-socials {
+  display: flex;
+}
+
+footer .container-socials h2 {
+  margin: 0 0.7rem;
+  color: #0282f9;
+}
+
+footer .container-socials a {
+  margin: 0 0.5rem;
 }
 

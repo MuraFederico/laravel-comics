@@ -11,26 +11,28 @@
         font-size: 12px;
     }
 }
+header {
 
-nav {
-    .container {
-        padding: 1rem 0;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+    nav {
+        .container {
+            padding: 1rem 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
 
-    .logo-container {
-        margin-right: 3rem;
-    }
+        .logo-container {
+            margin-right: 3rem;
+        }
 
-    .nav-list {
-        margin-right: 3rem;
-        display: flex;
-        list-style: none;
-        li {
-            margin: 0 1rem;
-            flex-grow: 1;
+        .nav-list {
+            margin-right: 3rem;
+            display: flex;
+            list-style: none;
+            li {
+                margin: 0 1rem;
+                flex-grow: 1;
+            }
         }
     }
 }
